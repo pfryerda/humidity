@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454D8F851CCBA37E00311D33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454D8F841CCBA37E00311D33 /* NetworkManager.swift */; };
+		456748461CCBB5590032EEBB /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456748451CCBB5590032EEBB /* SWXMLHash.framework */; };
+		456748481CCBB8740032EEBB /* CityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456748471CCBB8740032EEBB /* CityMap.swift */; };
+		4567484A1CCBB8870032EEBB /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456748491CCBB8870032EEBB /* City.swift */; };
 		45B223A61CCBA2B50071B6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B223A51CCBA2B50071B6F1 /* AppDelegate.swift */; };
 		45B223A81CCBA2B50071B6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B223A71CCBA2B50071B6F1 /* ViewController.swift */; };
 		45B223AB1CCBA2B50071B6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B223A91CCBA2B50071B6F1 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		45B223B01CCBA2B50071B6F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B223AE1CCBA2B50071B6F1 /* LaunchScreen.storyboard */; };
 		45B223BB1CCBA2B50071B6F1 /* HumidityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B223BA1CCBA2B50071B6F1 /* HumidityTests.swift */; };
 		45B223C61CCBA2B50071B6F1 /* HumidityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B223C51CCBA2B50071B6F1 /* HumidityUITests.swift */; };
+		E056C6536A01247988F68917 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB44AE71FACD4D667DE88ED3 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14668A8614E126F3E0C16888 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2245438B1B71CB758F42051D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		454D8F841CCBA37E00311D33 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		456748451CCBB5590032EEBB /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = "../../../Library/Developer/Xcode/DerivedData/Humidity-fljscfgbfdxnrtdhefwyfcrepzfx/Build/Products/Debug-iphonesimulator/SWXMLHash.framework"; sourceTree = "<group>"; };
+		456748471CCBB8740032EEBB /* CityMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMap.swift; sourceTree = "<group>"; };
+		456748491CCBB8870032EEBB /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		45B223A21CCBA2B50071B6F1 /* Humidity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humidity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B223A51CCBA2B50071B6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B223A71CCBA2B50071B6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		45B223C11CCBA2B50071B6F1 /* HumidityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumidityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B223C51CCBA2B50071B6F1 /* HumidityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidityUITests.swift; sourceTree = "<group>"; };
 		45B223C71CCBA2B50071B6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB44AE71FACD4D667DE88ED3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456748461CCBB5590032EEBB /* SWXMLHash.framework in Frameworks */,
+				E056C6536A01247988F68917 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4567484B1CCBF0920032EEBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				456748471CCBB8740032EEBB /* CityMap.swift */,
+				456748491CCBB8870032EEBB /* City.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4567484C1CCBF09A0032EEBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45B223A91CCBA2B50071B6F1 /* Main.storyboard */,
+				45B223A71CCBA2B50071B6F1 /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4567484D1CCBF0A90032EEBB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45B223A51CCBA2B50071B6F1 /* AppDelegate.swift */,
+				454D8F841CCBA37E00311D33 /* NetworkManager.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		45B223991CCBA2B40071B6F1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				45B223B91CCBA2B50071B6F1 /* HumidityTests */,
 				45B223C41CCBA2B50071B6F1 /* HumidityUITests */,
 				45B223A31CCBA2B50071B6F1 /* Products */,
+				C234EBCC887708013447D421 /* Pods */,
+				BF5695A9936E7365DD40889A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +140,9 @@
 		45B223A41CCBA2B50071B6F1 /* Humidity */ = {
 			isa = PBXGroup;
 			children = (
-				45B223A51CCBA2B50071B6F1 /* AppDelegate.swift */,
-				45B223A71CCBA2B50071B6F1 /* ViewController.swift */,
-				45B223A91CCBA2B50071B6F1 /* Main.storyboard */,
+				4567484D1CCBF0A90032EEBB /* Controllers */,
+				4567484C1CCBF09A0032EEBB /* Views */,
+				4567484B1CCBF0920032EEBB /* Models */,
 				45B223AC1CCBA2B50071B6F1 /* Assets.xcassets */,
 				45B223AE1CCBA2B50071B6F1 /* LaunchScreen.storyboard */,
 				45B223B11CCBA2B50071B6F1 /* Info.plist */,
@@ -125,6 +168,24 @@
 			path = HumidityUITests;
 			sourceTree = "<group>";
 		};
+		BF5695A9936E7365DD40889A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				456748451CCBB5590032EEBB /* SWXMLHash.framework */,
+				CB44AE71FACD4D667DE88ED3 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C234EBCC887708013447D421 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14668A8614E126F3E0C16888 /* Pods.debug.xcconfig */,
+				2245438B1B71CB758F42051D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45B223CA1CCBA2B50071B6F1 /* Build configuration list for PBXNativeTarget "Humidity" */;
 			buildPhases = (
+				B84EEF54DBAC7FCE3D35FD1C /* Check Pods Manifest.lock */,
 				45B2239E1CCBA2B40071B6F1 /* Sources */,
 				45B2239F1CCBA2B40071B6F1 /* Frameworks */,
 				45B223A01CCBA2B40071B6F1 /* Resources */,
+				CEB44434E9512EDE903A36BA /* Embed Pods Frameworks */,
+				E6E1CE50E9C65A255016BA3A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +315,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B84EEF54DBAC7FCE3D35FD1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB44434E9512EDE903A36BA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E1CE50E9C65A255016BA3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45B2239E1CCBA2B40071B6F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454D8F851CCBA37E00311D33 /* NetworkManager.swift in Sources */,
+				4567484A1CCBB8870032EEBB /* City.swift in Sources */,
 				45B223A81CCBA2B50071B6F1 /* ViewController.swift in Sources */,
 				45B223A61CCBA2B50071B6F1 /* AppDelegate.swift in Sources */,
+				456748481CCBB8740032EEBB /* CityMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +514,7 @@
 		};
 		45B223CB1CCBA2B50071B6F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14668A8614E126F3E0C16888 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Humidity/Info.plist;
@@ -410,6 +526,7 @@
 		};
 		45B223CC1CCBA2B50071B6F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2245438B1B71CB758F42051D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Humidity/Info.plist;
@@ -484,6 +601,7 @@
 				45B223CC1CCBA2B50071B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B223CD1CCBA2B50071B6F1 /* Build configuration list for PBXNativeTarget "HumidityTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +610,7 @@
 				45B223CF1CCBA2B50071B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B223D01CCBA2B50071B6F1 /* Build configuration list for PBXNativeTarget "HumidityUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +619,7 @@
 				45B223D21CCBA2B50071B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
